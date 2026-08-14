@@ -1,0 +1,51 @@
+{
+  "name": "endeavor-protocol",
+  "version": "0.1.0-alpha.1",
+  "status": "alpha",
+  "license": "MIT",
+  "entrypoints": {
+    "human": "README.md",
+    "fresh_instance": "BOOTSTRAP.md",
+    "repository_agent": "AGENTS.md",
+    "skill": "skills/endeavor-protocol/SKILL.md",
+    "bootstrap_script": "skills/endeavor-protocol/scripts/bootstrap.py",
+    "validator": "skills/endeavor-protocol/scripts/validate.py"
+  },
+  "profiles": [
+    "discovery",
+    "delivery",
+    "audit",
+    "communications",
+    "operations",
+    "synthesis"
+  ],
+  "capability_modes": [
+    "auto",
+    "solo",
+    "delegated",
+    "orchestrated"
+  ],
+  "roles": [
+    "orchestrator",
+    "investigator",
+    "builder",
+    "critic",
+    "verifier",
+    "synthesizer"
+  ],
+  "state_files": [
+    "AGENT_ENTRY.md",
+    "PROJECT.md",
+    "WORKPLAN.md",
+    "DECISIONS.md",
+    "EVIDENCE.md",
+    "OPEN_QUESTIONS.md",
+    "RISKS.md",
+    "RUN_LOG.md",
+    "HANDOFF.md"
+  ],
+  "assurance": {
+    "claim": "No assurance certification",
+    "safety_critical_use": "Requires domain-qualified human review and project-specific controls"
+  }
+}
