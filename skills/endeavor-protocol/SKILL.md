@@ -10,7 +10,7 @@ metadata:
 
 # Endeavor Protocol
 
-Use this skill to organize substantial work without confusing activity, confidence, or a written plan with verified progress. Use it to acquire more compute into your chosen task, and deploy it for longer. Includes an episodic memory system for maximum agent eliteness. 
+Use this skill to organize substantial work without confusing activity, confidence, or a written plan with verified progress. Use it to marshal more of the compute, agents, tools, and time available to a chosen task, and coordinate them across longer runs. Includes durable episodic-style project memory for maximum agent eliteness.
 
 Do not activate it for a tiny one-step request unless the user asks for formal project structure.
 
